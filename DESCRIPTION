@@ -1,0 +1,20 @@
+Package: NZCensusDemos
+Type: Package
+Title: New Zealand Census Data Demos
+Version: 0.1.1
+Author: Chris Hansen
+Maintainer: Chris Hansen <cmhhansen@outlook.com>
+Description: A small collection of interactive demos using a repackaged version of Statistics New Zealand's Census 'Meshblock' dataset.
+License: GPL
+LazyData: TRUE
+Depends:
+    NZCensus,
+    data.table,
+    dplyr,
+    dtplyr,
+    ggplot2,
+    reshape2,
+    leaflet,
+    shiny,
+    sp
+RoxygenNote: 5.0.1
